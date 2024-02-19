@@ -14,7 +14,7 @@ export const news = [
 		language: ["en"],
 	},
 	{
-		title: "Kenta xxx, Interview",
+		title: "Kenta Suzuki, Interview",
 		date: new Date("2024-01-04T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/kenta-suzuki-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1704892467290-USMIC0XHJWKL7LCCOSW2/Screenshot+2024-01-10+214801.png",
