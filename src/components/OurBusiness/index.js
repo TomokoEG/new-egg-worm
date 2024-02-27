@@ -9,12 +9,12 @@ function OurBusiness() {
 	const [hoveredIndex, setHoveredIndex] = useState(null);
 	const isTouchDevice = Boolean("ontouchstart" in window);
 
-  // Get the current language
-  const currentLanguage = i18n.language;
+	// Get the current language
+	const currentLanguage = i18n.language;
 
-  // Check if the current language is "jp" (Japanese)
+	// Check if the current language is "jp" (Japanese)
 
-  const isJapanese = currentLanguage === 'jp';
+	const isJapanese = currentLanguage === "jp";
 	const handleItemClick = (index) => {
 		if (activeOSIndex.includes(index)) {
 			setActiveOSIndex(activeOSIndex.filter((i) => i !== index));
@@ -34,7 +34,7 @@ function OurBusiness() {
 				break;
 
 			case 2:
-				window.location.href = "https://www.eggworm.jp/videoproduction";
+				window.location.href = `https://www.eggworm.jp/${isJapanese ? "jp/" : ""}videoproduction`;
 				break;
 
 			default:
@@ -107,7 +107,7 @@ function OurBusiness() {
 									<span>{item.title}</span>
 								</div>
 								<div className="hover">
-									<span className={isJapanese ? 'jp' : ''}>{item.content}</span>
+									<span className={isJapanese ? "jp" : ""}>{item.content}</span>
 								</div>
 							</a>
 						</li>
