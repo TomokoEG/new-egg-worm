@@ -10871,6 +10871,7 @@ input[type="checkbox"]:checked+.security-check-label span:before {
 
 .position-fixed {
   position: fixed;
+  width: 100vw;
 }
 
 .who-we-are .home-works-link {
