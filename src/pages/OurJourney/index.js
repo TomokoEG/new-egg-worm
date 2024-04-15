@@ -6,7 +6,7 @@ import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline
 import "react-vertical-timeline-component/style.min.css";
 import {dataTimeline} from "./dataTimeline";
 
-function BG() {
+function OurJourney() {
 	useEffect(() => {
 		const imgs = document.querySelectorAll(".gl-state-copy");
 		const imgWidth = imgs[0].offsetWidth;
@@ -250,4 +250,4 @@ function BG() {
 	);
 }
 
-export default BG;
+export default OurJourney;

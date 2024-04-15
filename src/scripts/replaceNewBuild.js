@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const sourceDir = "./build/static/js";
-const targetDir = "./src/dict";
+const targetDir = "./src/dict/pages/HomePage";
 const indexPath = path.join(targetDir, "index.html");
 
 fs.readdir(sourceDir, (err, sourceFiles) => {
