@@ -149,7 +149,7 @@ export const dataTimeline = {
 		"Russell Peters Show",
 		"Gumball 3000",
 		"Ferrari Content Creation",
-		"Whistelbump",
+		"Whistlebump",
 		"Jose Cuervo Activation",
 		"Mutek Japan Campaigns",
 		"American Eagle Campaigns",
