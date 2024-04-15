@@ -26,7 +26,7 @@ function Footer() {
 							<a href="https://www.instagram.com/eggworm_japan/" target="_blank" title="TWITTER" className="footer-twitter-link">
 								Instagram
 							</a>{" "}
-							<a href="https://www.facebook.com/eggworm" target="_blank" title="TWITTER" className="footer-twitter-link">
+							<a href="https://www.facebook.com/thesocialeggworm/" target="_blank" title="TWITTER" className="footer-twitter-link">
 								Facebook
 							</a>{" "}
 							<a href="https://twitter.com/eggworm" target="_blank" title="TWITTER" className="footer-twitter-link">

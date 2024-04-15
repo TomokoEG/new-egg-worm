@@ -28,9 +28,9 @@ function HomeInfo() {
 					<dt>{t("CI.address")}</dt>
 					<dd>
 						<span className="home-info__address">{t("CI.addressValue")}</span>{" "}
-						<a href="https://goo.gl/maps/FamY43u1SFePyUzb8?coh=178571&entry=tt" target="_blank" className="home-info__googlemap-link">
+						<a href="https://goo.gl/maps/FamY43u1SFePyUzb8?coh=178571&entry=tt" target="_blank" className="home-info__googlemap-link" rel="noreferrer">
 							<div className="text">
-								Google Map<span className="line"></span>
+								Google Maps<span className="line"></span>
 							</div>
 						</a>
 					</dd>
