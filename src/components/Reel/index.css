@@ -169,8 +169,13 @@ span.gl-state-line {
   margin: 0;
 }
 
-span.pretitle {
+span.indent {
   text-indent: -14px;
+}
+
+span.indent-text::second-line {
+  text-indent: -14px;
+  background: red;
 }
 
 .fadeInBottom {

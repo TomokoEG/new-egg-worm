@@ -20,16 +20,16 @@ function Footer() {
 					<div className="footer__inner2">
 						<div className="footer-menu2"></div>
 						<div className="footer__policy">
-							<a href="https://www.linkedin.com/company/eggworm-k.k." target="_blank" title="TWITTER" className="footer-twitter-link">
+							<a href="https://www.linkedin.com/company/eggworm-k.k." target="_blank" className="footer-twitter-link">
 								Linkedin
 							</a>{" "}
-							<a href="https://www.instagram.com/eggworm_japan/" target="_blank" title="TWITTER" className="footer-twitter-link">
+							<a href="https://www.instagram.com/eggworm_japan/" target="_blank" className="footer-twitter-link">
 								Instagram
 							</a>{" "}
-							<a href="https://www.facebook.com/thesocialeggworm/" target="_blank" title="TWITTER" className="footer-twitter-link">
+							<a href="https://www.facebook.com/thesocialeggworm/" target="_blank" className="footer-twitter-link">
 								Facebook
 							</a>{" "}
-							<a href="https://twitter.com/eggworm" target="_blank" title="TWITTER" className="footer-twitter-link">
+							<a href="https://twitter.com/eggworm" target="_blank" className="footer-twitter-link">
 								Twitter
 							</a>{" "}
 						</div>
