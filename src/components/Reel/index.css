@@ -173,6 +173,12 @@ span.indent {
   text-indent: -14px;
 }
 
+@media (max-width: 768px) {
+  span.indent {
+      text-indent: -8px;
+    }
+}
+
 span.indent-text::second-line {
   text-indent: -14px;
   background: red;
