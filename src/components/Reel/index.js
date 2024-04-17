@@ -164,8 +164,8 @@ function Reel() {
 				<div className="gl-state-white"></div>
 				<div className="gl-statement-txt">
 					<p className="gl-state-intxt">
-						<span className="gl-state-line"></span>
-						<span>{t("reel.title")}</span>
+						<span className="gl-state-line pretitle">{t("reel.preTitle")}</span>
+						<span className="gl-state-line-trim">{t("reel.title")}</span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>

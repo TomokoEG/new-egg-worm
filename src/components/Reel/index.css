@@ -169,7 +169,9 @@ span.gl-state-line {
   margin: 0;
 }
 
-
+span.pretitle {
+  text-indent: -14px;
+}
 
 .fadeInBottom {
   animation-name: fadeInBottom;
