@@ -212,5 +212,4 @@ export const dataTimeline = {
 		"Beyond The Vines Campaigns",
 		"Add Second House Strategy",
 	],
-	2024: []
 };
