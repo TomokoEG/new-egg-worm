@@ -329,164 +329,144 @@ span {
 
 #our-journal {
   background-color: #000;
+}
 
-  .eggwrom-timeline {
-    overflow: hidden;
+#our-journal .eggwrom-timeline {
+  overflow: hidden;
+}
 
-    .vertical-timeline-element-content {
-      color: #fff;
-      padding: unset;
-      width: 50%;
-      background: unset !important;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-content {
+  background: transparent none repeat 0 0/auto auto padding-box border-box scroll !important;
+  background: initial !important;
+  box-shadow: none;
+  color: #fff;
+  padding: initial;
+  width: 50%;
+}
 
-    .vertical-timeline-element-content {
-      box-shadow: unset;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element:nth-child(2n) .title {
+  display: flex;
+  justify-content: end;
+  margin-right: -7.8px;
+}
 
-    /* even title */
-    .vertical-timeline-element:nth-child(even) .title {
-      display: flex;
-      justify-content: end;
-      margin-right: -7.8px;
-    }
+#our-journal .eggwrom-timeline li {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 18px;
+}
 
-    /* even li */
+#our-journal .eggwrom-timeline .vertical-timeline-element:nth-child(2n) ul li {
+  align-items: flex-end;
+  flex-direction: row;
+}
 
-    li {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: flex-end;
-      gap: 18px;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-content .title {
+  color: #fff;
+  font-family: Noto Sans JP;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 7.8px;
+  line-height: 144.428px;
+  margin-bottom: 44px;
+  position: relative;
+}
 
-    .vertical-timeline-element:nth-child(even) ul li {
-      align-items: flex-end;
-      flex-direction: row;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-content .title:before {
+  background: #fff;
+  bottom: 0;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
 
+#our-journal .eggwrom-timeline .vertical-timeline-element-content li p {
+  color: #fff;
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  position: relative;
+  white-space: nowrap;
+}
 
-    /* title style */
-    .vertical-timeline-element-content .title {
-      position: relative;
-      margin-bottom: 44px;
-      color: #FFF;
-      font-family: "Noto Sans JP";
-      font-size: 60px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 144.428px;
-      letter-spacing: 7.8px;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-content li:not(:last-child) {
+  margin-bottom: 24px;
+}
 
-    /* title line */
-    .vertical-timeline-element-content .title::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0px;
-      height: 5px;
-      background: #fff;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-content .item-line {
+  background: #fff;
+  content: "";
+  height: 5px;
+  margin-bottom: 14px;
+  width: 30%;
+}
 
-    /* li style */
-    .vertical-timeline-element-content li p {
-      position: relative;
-      color: #FFF;
-      font-family: "Noto Sans JP";
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 50px;
-      white-space: nowrap;
-      /* 208.333% */
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-icon {
+  display: none;
+}
 
-    /* margin li */
-    .vertical-timeline-element-content li:not(:last-child) {
-      margin-bottom: 24px;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline:before {
+  width: 15px;
+}
 
-    /* line li */
-    .vertical-timeline-element-content .item-line {
-      content: '';
-      margin-bottom: 14px;
-      height: 5px;
-      background: #fff;
-      width: 30%;
-    }
+#our-journal .eggwrom-timeline .vertical-timeline-element-content-arrow {
+  display: none;
+}
 
-    .vertical-timeline-element-icon {
-      display: none;
-    }
+@media (max-width:1169px) {
+  #our-journal .eggwrom-timeline li {
+    flex-direction: row;
+  }
+}
 
-    .vertical-timeline::before {
-      width: 15px;
-    }
-
-    .vertical-timeline-element-content-arrow {
-      display: none;
-    }
-
-    /* responsive */
-    @media (max-width: 1169px) {
-      /* .item-line {
-        display: none;
-      } */
-
-      li {
-        flex-direction: row;
-      }
-    }
-
-    /* mobile  */
-    @media (max-width: 768px) {
-      .title {
-        font-size: 8vw !important;
-        line-height: 7.5vw !important;
-        ;
-        margin-bottom: 10.2vw !important;
-      }
-
-      .title::before {
-        bottom: -15px !important;
-      }
-
-      .item-line {
-        margin-bottom: 1.6vw !important;
-      }
-
-      p {
-        font-size: 2.4vw !important;
-        line-height: 5.4vw !important;
-        margin: unset !important;
-      }
-
-      .vertical-timeline-element-content li:not(:last-child) {
-        margin-bottom: 3.3vw !important;
-      }
-
-      .vertical-timeline-element-content {
-        margin-left: 0;
-      }
-
-      li {
-        gap: 1vw;
-      }
-
-      .vertical-timeline-element:nth-child(odd) li {
-        flex-direction: row-reverse;
-      }
-
-      .vertical-timeline-element:nth-child(even) .vertical-timeline-element-content {
-        float: right;
-      }
-
-    }
+@media (max-width:768px) {
+  #our-journal .eggwrom-timeline .title {
+    font-size: 8vw !important;
+    line-height: 7.5vw !important;
+    margin-bottom: 10.2vw !important;
   }
 
-  .vertical-timeline::before {
-    left: 50% !important;
+  #our-journal .eggwrom-timeline .title:before {
+    bottom: -15px !important;
   }
+
+  #our-journal .eggwrom-timeline .item-line {
+    margin-bottom: 1.6vw !important;
+  }
+
+  #our-journal .eggwrom-timeline p {
+    font-size: 2.4vw !important;
+    line-height: 5.4vw !important;
+    margin: initial !important;
+  }
+
+  #our-journal .eggwrom-timeline .vertical-timeline-element-content li:not(:last-child) {
+    margin-bottom: 3.3vw !important;
+  }
+
+  #our-journal .eggwrom-timeline .vertical-timeline-element-content {
+    margin-left: 0;
+  }
+
+  #our-journal .eggwrom-timeline li {
+    gap: 1vw;
+  }
+
+  #our-journal .eggwrom-timeline .vertical-timeline-element:nth-child(odd) li {
+    flex-direction: row-reverse;
+  }
+
+  #our-journal .eggwrom-timeline .vertical-timeline-element:nth-child(2n) .vertical-timeline-element-content {
+    float: right;
+  }
+}
+
+#our-journal .vertical-timeline:before {
+  left: 50% !important;
 }
