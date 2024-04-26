@@ -154,7 +154,7 @@ img {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
   #gl-statement p {
     font-size: 3.73333vw;
     line-height: 6.4vw
@@ -173,7 +173,7 @@ img {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
   #gl-statement p.large {
     font-size: 6.13333vw
   }
@@ -189,7 +189,7 @@ img {
   #gl-statement {}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
   #gl-statement {
     padding: 6vw 8vw 6vw 8vw;
   }
@@ -223,13 +223,11 @@ img {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
   .gl-statement__bg {
     font-size: 46.66667vw
   }
 }
-
-@charset "utf-8";
 
 .gl-statement-txt {
   width: 100%;
@@ -425,7 +423,7 @@ span {
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:1170px) {
   #our-journal .eggwrom-timeline .title {
     font-size: 8vw !important;
     line-height: 7.5vw !important;
