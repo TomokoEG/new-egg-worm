@@ -1,5 +1,5 @@
 export const dataTimeline = {
-	2009: ["Moët & Chandon Activations", "Summer Sounds", "Belvledere Activations"],
+	2009: ["Moët & Chandon Activations", "Summer Sounds", "Belvedere Activations"],
 	2010: ["The Social Launch", "Fiat Space", "Moët & Chandon Yacht Party", "Audio Festival", "Lamborghini Fashion Show", "Summer Sounds", "International Pole Championship", "Whistlebump", "Jaguar Fashion Show"],
 	2011: ["Bremen Album Launch", "Alfa Romeo Activation", "Mojito Original Campaigns", "Grand Marnier Activation", "Whistlebump", "Summer Sounds", "Belvedere Red Activation", "All 4 One Show"],
 	2012: ["Alfa Romeo x Audio Technica Campaign", "Audio Festival", "Summer Sounds", "Francesco Tristano Show", "Dave Clarke Show", "Jeep x Fuji Rock Campaign", "Lil Jon Show", "Peter Hook & Bez Show", "Justin Moorhouse Show", "Joel Dommett Show", "Whistlebump", "Matthias Tanzmann Show", "Matt Tolfrey Show", "Armani Exchange Beach House"],
@@ -212,5 +212,5 @@ export const dataTimeline = {
 		"Beyond The Vines Campaigns",
 		"Add Second House Strategy",
 	],
-	2024: []
+	2024: [],
 };
