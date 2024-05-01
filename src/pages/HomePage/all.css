@@ -2367,6 +2367,13 @@ html.is-ipad .showreel-playbutton .circle:before {
   display: block
 }
 
+@media (min-width: 768px) {
+  .home-works-item {
+    min-height: 550px;
+    max-height: 700px
+  }
+}
+
 @media (max-width: 768px) {
   .home-works-item {
     height: auto
@@ -2476,6 +2483,7 @@ html.is-ipad .home-works-item__inner {
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-position: center center;
   -webkit-transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   -o-transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1);
