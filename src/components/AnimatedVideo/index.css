@@ -9,21 +9,27 @@
   overflow: hidden;
   width: 100% !important;
   height: 100vh !important;
+}
 
-  &>div>iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100vw;
-    height: 116vh;
-    border: none;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-  }
+.VideoPlayer div iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 116vh;
+  border: none;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
 
-  &>video {
-    object-fit: cover;
+@media (max-width: 768px) {
+  .VideoPlayer div iframe {
+    transform: translate(-50%, -50%) scale(1.5);
   }
+}
+
+.VideoPlayer video {
+  object-fit: cover !;
 }
 
 relative-pos {
