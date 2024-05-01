@@ -150,13 +150,12 @@ function OurJourney() {
 
 		// random size timeline
 		if (window.matchMedia("(max-width: 1170px)").matches) {
+			// Tablet and mobile
 			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
-				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 32;
-
-				if (element.childNodes[1].offsetWidth > element.offsetWidth * 0.72) {
-					max = 0;
-				}
-				element.childNodes[0].style.width = max + "px";
+				const pixelValue = 1;
+				const vwValue = (pixelValue / window.innerWidth) * 100;
+				var widthValueOfTheBar = element.offsetWidth - element.childNodes[1].offsetWidth - vwValue;
+				element.childNodes[0].style.width = widthValueOfTheBar + "px";
 			});
 		} else {
 			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
