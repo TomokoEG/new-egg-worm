@@ -37,19 +37,29 @@
 
 @media (min-width: 769px) {
   #gl-statement p.large {
-    font-size: 3.125vw
+    font-size: 5.125vw;
+    line-height: 1.2;
+  }
+
+  #gl-statement p.large span.indent {
+    text-indent: -34px;
   }
 }
 
 @media (min-width: 1440px) {
   #gl-statement p.large {
-    font-size: 45px
+    font-size: 60px;
+    line-height: 1.2;
   }
 }
 
 @media (max-width: 768px) {
   #gl-statement p.large {
-    font-size: 6.13333vw
+    font-size: 6.13333vw;
+  }
+
+  #gl-statement p.large span.indent {
+    text-indent: -12px;
   }
 }
 
@@ -168,13 +178,13 @@ span.gl-state-line {
 }
 
 span.indent {
-  text-indent: -24px;
+  text-indent: -14px;
 }
 
 @media (max-width: 768px) {
   span.indent {
-      text-indent: -12px;
-    }
+    text-indent: -8px;
+  }
 }
 
 span.indent-text::second-line {
