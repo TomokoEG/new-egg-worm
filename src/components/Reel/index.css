@@ -105,8 +105,6 @@
   }
 }
 
-@charset "utf-8";
-
 .gl-statement-txt {
   width: 100%;
   -webkit-user-select: none;
@@ -170,12 +168,12 @@ span.gl-state-line {
 }
 
 span.indent {
-  text-indent: -14px;
+  text-indent: -24px;
 }
 
 @media (max-width: 768px) {
   span.indent {
-      text-indent: -8px;
+      text-indent: -12px;
     }
 }
 
