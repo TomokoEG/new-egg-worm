@@ -2362,7 +2362,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 .home-works-item {
   overflow: hidden;
-  height: 67vh;
+  height: 72vh;
   position: relative;
   display: block
 }
@@ -2370,7 +2370,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 @media (min-width: 768px) {
   .home-works-item {
     min-height: 550px;
-    max-height: 700px
+    max-height: 800px
   }
 }
 
