@@ -30,19 +30,19 @@ function OurBusiness() {
 	const otherBusinessList = [
 		{
 			title: t("OB.boxTitle1"),
-			imgLink: "https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/ourBrands.png",
+			imgLink: "https://raw.githubusercontent.com/tomokoeg/new-egg-worm/main/src/assets/ourBrands.png",
 			description: "View all",
 			url: "/brands",
 		},
 		{
 			title: t("OB.boxTitle2"),
-			imgLink: "https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/content.png",
+			imgLink: "https://raw.githubusercontent.com/tomokoeg/new-egg-worm/main/src/assets/content1.png",
 			description: "View all",
 			url: `${isJapanese ? "/jp" : "/en"}/media`,
 		},
 		{
 			title: t("OB.boxTitle3"),
-			imgLink: "https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/media.png",
+			imgLink: "https://raw.githubusercontent.com/tomokoeg/new-egg-worm/main/src/assets/media.png",
 			description: "View all",
 			url: `${isJapanese ? "/jp" : "/en"}/videoproduction`,
 		},
