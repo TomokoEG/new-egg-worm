@@ -32,7 +32,7 @@ function OurBusiness() {
 			title: t("OB.boxTitle1"),
 			imgLink: "https://raw.githubusercontent.com/tomokoeg/new-egg-worm/main/src/assets/ourBrands.png",
 			description: "View all",
-			url: "/brands",
+			url: `${isJapanese ? "/jp" : "/en"}/events`,
 		},
 		{
 			title: t("OB.boxTitle2"),
