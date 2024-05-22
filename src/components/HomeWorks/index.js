@@ -36,21 +36,21 @@ function HomeWorks() {
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/00900994-9f04-4260-85f6-220debb6ed8c/434684871_920431673419453_8894548977249295541_n.jpg?format=2500w",
 			title: "TAIS",
 			description: t("WOKR.1"),
-			url: `https://www.eggworm.jp/${false ? "jp" : "en"}/our-works/tais`,
+			url: `https://www.eggworm.jp/${isJapanese ? "jp" : "en"}/our-works/tais`,
 		},
 		{
 			id: 2,
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/b3b854fe-fd8c-4e59-9d81-5c06f7329778/Screenshot+2024-04-16+173505.png?format=2500w",
 			title: "ALEXANDRION GROUP",
 			description: t("WOKR.2"),
-			url: `https://www.eggworm.jp/${false ? "jp" : "en"}/our-works/alexandrion-group`,
+			url: `https://www.eggworm.jp/${isJapanese ? "jp" : "en"}/our-works/alexandrion-group`,
 		},
 		{
 			id: 3,
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/499a2472-9885-4594-b1cc-3e65dc12a371/Untitled+%281%29+copy+2.png?format=2500w",
 			title: "NOTION",
 			description: t("WOKR.3"),
-			url: `https://www.eggworm.jp/${false ? "jp" : "en"}/our-works/notion`,
+			url: `https://www.eggworm.jp/${isJapanese ? "jp" : "en"}/our-works/notion`,
 		},
 	];
 
