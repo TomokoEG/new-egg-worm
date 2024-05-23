@@ -1,5 +1,40 @@
 export const news = [
 	{
+		title: "Yosuke Inoue, Interview",
+		date: new Date("2024-04-25T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/otai-record-yosukeinoue",
+		img: "https://pbs.twimg.com/media/FwoIpUxakAAcJcU?format=jpg&name=medium",
+		language: ["jp"],
+	},
+	{
+		title: "Alejandro M. Lopez, Interview",
+		date: new Date("2024-03-26T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/alejandro-m-lopez-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1711521504310-C0MYARTD286HPX5MQ5YY/ALEJANDRO.jpeg?format=500w",
+		language: ["jp"],
+	},
+	{
+		title: "Kristian Riis, Interview",
+		date: new Date("2024-03-25T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/Kristian-Riis-Interview",
+		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1709248549849-3TI83M0HEGHZGFF73H86/IMG_0132.jpeg?format=500w",
+		language: ["jp"],
+	},
+	{
+		title: "Lia Tee, Interview",
+		date: new Date("2024-02-25T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/liatee-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1707113196804-47P0KJ720D563A6BPACA/LIA.TK01.jpeg?format=1500w",
+		language: ["jp"],
+	},
+	{
+		title: "Lia Tee, Interview",
+		date: new Date("2024-02-24T17:00:00.000Z"),
+		link: "https://www.eggworm.jp/thesocial/lia-tee-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1707113196804-47P0KJ720D563A6BPACA/LIA.TK01.jpeg?format=1500w",
+		language: ["en"],
+	},
+	{
 		title: "Eggworm's Dance with the Dragon",
 		date: new Date("2024-01-24T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/thesocial/eggworms-dance-with-the-dragon",
