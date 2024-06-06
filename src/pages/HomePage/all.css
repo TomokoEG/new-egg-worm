@@ -10881,11 +10881,13 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   width: 100vw;
 }
 
-.who-we-are .home-works-link {
+.who-we-are .home-works-link,
+.our-business .home-works-link {
   color: #000;
 }
 
-.who-we-are .home-works-link .arrow:before {
+.who-we-are .home-works-link .arrow:before,
+.our-business .home-works-link .arrow:before {
   background: url("https://goinc.co.jp/assets/images/home/works-arrow-black.svg") top left no-repeat;
 }
 

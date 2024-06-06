@@ -72,6 +72,11 @@ function OurBusiness() {
 						<span>{t("OB.subtitle1")}</span>
 					</h3>
 					<p className="our-business__text">{t("OB.subtitle2")}</p>
+					<br></br>
+					<br></br>
+					<a href="https://www.notion.so/eggworm/Meet-Eggworm-443d3afc63f04631a72543ae8bf8bf09" className="home-works-link arrow-button active">
+						<span class="text">{t("OB.cta")}</span> <span class="arrow"></span> <span class="line"></span>
+					</a>
 				</div>
 			</header>
 			<section className="our-creative" id="our-services">
