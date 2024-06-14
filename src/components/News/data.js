@@ -1,5 +1,40 @@
 export const news = [
 	{
+		title: "Tokyo International BarShow 2024: Remy Cointreau Japan Booth",
+		date: new Date("2024-05-15T17:00:00.000Z"),
+		link: "http://tokyobarshow.com/",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1718330933687-J5TYPO68WH7T5XDRO0FI/Remy+cointreau+tokyo+bar+show.png?format=1500w",
+		language: ["en"],
+	},
+	{
+		title: "Tokyo International BarShow 2024: Remy Cointreau Japan Booth",
+		date: new Date("2024-05-15T17:00:00.000Z"),
+		link: "http://tokyobarshow.com/",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1718330933687-J5TYPO68WH7T5XDRO0FI/Remy+cointreau+tokyo+bar+show.png?format=1500w",
+		language: ["jp"],
+	},
+	{
+		title: "Alex From Tokyo, Interview",
+		date: new Date("2024-05-01T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/alex-from-tokyo",
+		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1715167750665-TG2BF990NM4Q8EAF0O6O/Alex+from+Tokyo%40ziptripp-D060974-R1-01-36+%281%29.JPEG?format=300w",
+		language: ["jp"],
+	},
+	{
+		title: "Atsuko Okatsuka Full Grown Tour Asia",
+		date: new Date("2024-04-27T17:00:00.000Z"),
+		link: "https://atsukocomedy.com/",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1717559894207-Z98LGLJLO0EKYKK6YAAF/20240322-006.jpg?format=2500w",
+		language: ["en"],
+	},
+	{
+		title: "Atsuko Okatsuka Full Grown Tour Asia",
+		date: new Date("2024-04-27T17:00:00.000Z"),
+		link: "https://atsukocomedy.com/",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1717559894207-Z98LGLJLO0EKYKK6YAAF/20240322-006.jpg?format=2500w",
+		language: ["jp"],
+	},
+	{
 		title: "Yosuke Inoue, Interview",
 		date: new Date("2024-04-25T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/otai-record-yosukeinoue",
