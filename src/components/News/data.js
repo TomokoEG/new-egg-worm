@@ -17,7 +17,7 @@ export const news = [
 		title: "Alex From Tokyo, Interview",
 		date: new Date("2024-05-01T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/alex-from-tokyo",
-		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1715167750665-TG2BF990NM4Q8EAF0O6O/Alex+from+Tokyo%40ziptripp-D060974-R1-01-36+%281%29.JPEG?format=300w",
+		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1718340932866-J20NKOEGXAZ0O4FCCYDT/Alex+from+tokyo.png?format=300w",
 		language: ["jp"],
 	},
 	{
