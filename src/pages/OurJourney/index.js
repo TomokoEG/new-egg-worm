@@ -226,6 +226,10 @@ function OurJourney() {
 						<span className="gl-state-line"></span>
 						<span>{t("UH.text8")}</span>
 					</p>
+					<p className="gl-state-intxt">
+						<span className="gl-state-line"></span>
+						<span>{t("UH.text9")}</span>
+					</p>
 				</div>
 			</section>
 
