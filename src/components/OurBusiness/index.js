@@ -27,6 +27,8 @@ function OurBusiness() {
 		window.location.href = `https://www.eggworm.jp${item.url}`;
 	};
 
+	const meetEggwormLink = isJapanese ? "https://eggworm.notion.site/Meet-Eggworm-fb1b64d076734997ad075dd13a8a59ae": "https://eggworm.notion.site/Meet-Eggworm-443d3afc63f04631a72543ae8bf8bf09?pvs=4";
+
 	const otherBusinessList = [
 		{
 			title: t("OB.boxTitle1"),
@@ -74,7 +76,7 @@ function OurBusiness() {
 					<p className="our-business__text">{t("OB.subtitle2")}</p>
 					<br></br>
 					<br></br>
-					<a href="https://eggworm.notion.site/Meet-Eggworm-443d3afc63f04631a72543ae8bf8bf09?pvs=4" className="home-works-link arrow-button active">
+					<a href={meetEggwormLink} className="home-works-link arrow-button active">
 						<span class="text">{t("OB.cta")}</span> <span class="arrow"></span> <span class="line"></span>
 					</a>
 				</div>
