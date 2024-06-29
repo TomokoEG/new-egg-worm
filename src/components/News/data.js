@@ -1,13 +1,13 @@
 export const news = [
 	{
-		title: "TIBS 2024: Remy Cointreau Japan Booth",
+		title: "TIBS 2024: Remy Cointreau Japan",
 		date: new Date("2024-05-15T17:00:00.000Z"),
 		link: "http://tokyobarshow.com/",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1718330933687-J5TYPO68WH7T5XDRO0FI/Remy+cointreau+tokyo+bar+show.png?format=1500w",
 		language: ["en"],
 	},
 	{
-		title: "TIBS 2024: Remy Cointreau Japan Booth",
+		title: "TIBS 2024: Remy Cointreau Japan",
 		date: new Date("2024-05-15T17:00:00.000Z"),
 		link: "http://tokyobarshow.com/",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1718330933687-J5TYPO68WH7T5XDRO0FI/Remy+cointreau+tokyo+bar+show.png?format=1500w",
